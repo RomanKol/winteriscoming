@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Winter is coming - An animated countdown to the start of the sixth season of Game of Thrones">
+	<meta name="author" content="Roman Kollatschny">
+	<meta name="keywords" content="winter is coming game fo thrones got webgl threejs">
+	<meta name="robots" content="index,follow">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@theRealRoKo">
+	<meta name="twitter:creator" content="@theRealRoKo">
+	<meta name="twitter:title" content="Winter is Coming">
+	<meta name="twitter:description" content="Winter is coming - An animated countdown to the start of the sixth season of Game of Thrones">
+	<meta name="twitter:image" content="http://kollatschny.net/winteriscoming/images/winteriscoming.jpg">
+	<meta name="twitter:domain" content="http://kollatschny.net/">
+	<meta name="twitter:url" content="http://kollatschny.net/winteriscoming">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Winter is Coming">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="http://kollatschny.net/winteriscoming">
+	<meta property="og:image" content="http://kollatschny.net/winteriscoming/images/winteriscoming.jpg">
+	<meta property="og:description" content="Winter is coming - An animated countdown to the start of the sixth season of Game of Thrones">
+	<meta property="og:site_name" content="kollatschny.net">
+	<meta property="og:locale" content="de_DE">
+	<meta property="og:country-name" content="Germany">
+
+<!-- 	<base href="http://kollatschny.net/winteriscoming/">
+<link rel="canonical" href="http://kollatschny.net/winteriscoming"> -->
+
+	<title>Winter is coming</title>
+
+	<link href='https://fonts.googleapis.com/css?family=Cinzel:400,700' rel='stylesheet' type='text/css'>
+	<link href="styles/styles.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<section id="countdown">
+		<h1>Winter is coming</h1>
+		<span id="days"><strong></strong> days,</span>
+		<span id="hours"><strong></strong> hours,</span>
+		<span id="minutes"><strong></strong> minutes </span>
+		<span id="seconds">and <strong></strong> seconds</span>
+	</section>
+
+	<nav class="nav">
+		<button class="js-open">Info</button>
+	</nav>
+
+	<section class="infobox hide">
+		<div class="container">
+
+			<nav class="nav">
+				<button class="js-close">Close</button>
+			</nav>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Winter is coming</h1>
+					<h2>created by Roman Kollatschny</h2>
+				</div>
+			</div>
+
+			<div class="row">
+
+				<div class="col-xs-4">
+					<h3>Build with</h3>
+					<a href="http://threejs.org/">
+						<h4>ThreeJS</h4>
+					</a>
+					<a href="">
+						<h4>Boostrap</h4>
+					</a>
+				</div>
+
+				<div class="col-xs-4">
+					<h3>Code on</h3>
+					<a href="https://github.com/romankol/winteriscoming/">
+						<h4>Github</h4>
+					</a>
+				</div>
+
+				<div class="col-xs-4">
+					<h3>Inspired by</h3>
+					<a href="http://codepen.io/teolitto/pen/KwOVvL">
+						<h4>Smoke by teolitto</h4>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<button class="share facebook">
+						<img src="images/facebook.svg" alt="">
+						<strong>Facebook</strong>
+					</button>
+					<button class="share twitter">
+						<img src="images/twitter.svg" alt="">
+						<strong>Twitter</strong>
+					</button>
+				</div>
+			</div>
+
+		</div>
+  </seciton>
+
+	<!-- App JavaScript -->
+	<script src="scripts/libs/three.js"></script>
+	<script src="scripts/scene.js"></script>
+	<script src="scripts/countdown.js"></script>
+	<script src="scripts/app.js"></script>
+
+</body>
+
+</html>
