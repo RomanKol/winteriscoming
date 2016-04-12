@@ -87,6 +87,17 @@ section {
 	}
 }
 
+
+.social {
+	margin-top: 1rem;
+	text-decoration: none;
+	a {
+		&:hover, &:focus {
+			text-decoration: none;
+		}
+	}
+}
+
 button {
 
 	border: none;
@@ -100,7 +111,7 @@ button {
  		margin-right: 1rem;
 		margin-bottom: 1rem;
 		line-height: 1rem;
-		padding: 1rem 2rem;
+		padding: 1rem;
 		transition: all 125ms;
 		box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12);
 
@@ -113,14 +124,6 @@ button {
 			float: left;
 			height: 1rem;
 			width: auto;
-			margin-right: 10px;
-		}
-
-		strong {
-			margin-left: 2.5rem;
-			line-height: 1rem;
-			font-size: 1rem;
-			margin: 0;
 		}
 
 		&.facebook {
@@ -183,10 +186,6 @@ button {
 		img {
 			height: 1.5rem;
 		}
-		strong {
-			font-size: 1.5rem;
-			line-height: 1.5rem;
-		}
 	}
 }
 
@@ -216,12 +215,7 @@ button {
 		img {
 			height: 2rem;
 		}
-		strong {
-			font-size: 2rem;
-			line-height: 2rem;
-		}
 	}
-
 }
 
 /* Large devices (large desktops, 1200px and up) */

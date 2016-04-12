@@ -5946,133 +5946,126 @@ section {
     .infobox nav button {
       color: black; }
 
-/* line 90, F:/Sites/winteriscoming/app/scss/_custom.scss */
+/* line 91, F:/Sites/winteriscoming/app/scss/_custom.scss */
+.social {
+  margin-top: 1rem;
+  text-decoration: none; }
+  /* line 95, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  .social a:hover, .social a:focus {
+    text-decoration: none; }
+
+/* line 101, F:/Sites/winteriscoming/app/scss/_custom.scss */
 button {
   border: none;
   padding: 1rem;
   z-index: 1000;
   background-color: transparent;
   color: white; }
-  /* line 98, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 109, F:/Sites/winteriscoming/app/scss/_custom.scss */
   button.share {
     margin-right: 1rem;
     margin-bottom: 1rem;
     line-height: 1rem;
-    padding: 1rem 2rem;
+    padding: 1rem;
     transition: all 125ms;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 12px 0 rgba(0, 0, 0, 0.12); }
-    /* line 107, F:/Sites/winteriscoming/app/scss/_custom.scss */
+    /* line 118, F:/Sites/winteriscoming/app/scss/_custom.scss */
     button.share:hover {
       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.2);
       -webkit-transform: scale(1.05);
       transform: scale(1.05); }
-    /* line 112, F:/Sites/winteriscoming/app/scss/_custom.scss */
+    /* line 123, F:/Sites/winteriscoming/app/scss/_custom.scss */
     button.share img {
       float: left;
       height: 1rem;
-      width: auto;
-      margin-right: 10px; }
-    /* line 119, F:/Sites/winteriscoming/app/scss/_custom.scss */
-    button.share strong {
-      margin-left: 2.5rem;
-      line-height: 1rem;
-      font-size: 1rem;
-      margin: 0; }
-    /* line 126, F:/Sites/winteriscoming/app/scss/_custom.scss */
+      width: auto; }
+    /* line 129, F:/Sites/winteriscoming/app/scss/_custom.scss */
     button.share.facebook {
       background-color: #3b5998; }
-    /* line 129, F:/Sites/winteriscoming/app/scss/_custom.scss */
+    /* line 132, F:/Sites/winteriscoming/app/scss/_custom.scss */
     button.share.twitter {
       background-color: #55acee; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  /* line 140, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 143, F:/Sites/winteriscoming/app/scss/_custom.scss */
   h1 {
     font-size: 3rem; }
-  /* line 143, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 146, F:/Sites/winteriscoming/app/scss/_custom.scss */
   h2 {
     font-size: 2.5rem; }
-  /* line 146, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 149, F:/Sites/winteriscoming/app/scss/_custom.scss */
   h3 {
     font-size: 2rem; }
-  /* line 149, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 152, F:/Sites/winteriscoming/app/scss/_custom.scss */
   h4 {
     font-size: 1.5rem; }
-  /* line 152, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 155, F:/Sites/winteriscoming/app/scss/_custom.scss */
   #countdown {
     font-size: 2rem; }
-    /* line 154, F:/Sites/winteriscoming/app/scss/_custom.scss */
+    /* line 157, F:/Sites/winteriscoming/app/scss/_custom.scss */
     #countdown strong {
       min-width: 3rem; } }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  /* line 163, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 166, F:/Sites/winteriscoming/app/scss/_custom.scss */
   h1 {
     font-size: 6rem; }
-  /* line 166, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 169, F:/Sites/winteriscoming/app/scss/_custom.scss */
   h2 {
     font-size: 4rem; }
-  /* line 169, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 172, F:/Sites/winteriscoming/app/scss/_custom.scss */
   h3 {
     font-size: 3rem; }
-  /* line 172, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 175, F:/Sites/winteriscoming/app/scss/_custom.scss */
   h4 {
     font-size: 2rem; }
-  /* line 175, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 178, F:/Sites/winteriscoming/app/scss/_custom.scss */
   #countdown {
     font-size: 3rem; }
-    /* line 177, F:/Sites/winteriscoming/app/scss/_custom.scss */
+    /* line 180, F:/Sites/winteriscoming/app/scss/_custom.scss */
     #countdown strong {
       min-width: 4rem; }
-  /* line 181, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 184, F:/Sites/winteriscoming/app/scss/_custom.scss */
   button.share {
     line-height: 1.5rem; }
-    /* line 183, F:/Sites/winteriscoming/app/scss/_custom.scss */
-    button.share img {
-      height: 1.5rem; }
     /* line 186, F:/Sites/winteriscoming/app/scss/_custom.scss */
-    button.share strong {
-      font-size: 1.5rem;
-      line-height: 1.5rem; } }
+    button.share img {
+      height: 1.5rem; } }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  /* line 196, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 195, F:/Sites/winteriscoming/app/scss/_custom.scss */
   h1 {
     font-size: 8rem; }
-  /* line 199, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 198, F:/Sites/winteriscoming/app/scss/_custom.scss */
   h2 {
     font-size: 6rem; }
-  /* line 202, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 201, F:/Sites/winteriscoming/app/scss/_custom.scss */
   h3 {
     font-size: 5rem; }
-  /* line 205, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 204, F:/Sites/winteriscoming/app/scss/_custom.scss */
   h4 {
     font-size: 4rem; }
-  /* line 208, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 207, F:/Sites/winteriscoming/app/scss/_custom.scss */
   #countdown {
     font-size: 4rem; }
-    /* line 210, F:/Sites/winteriscoming/app/scss/_custom.scss */
+    /* line 209, F:/Sites/winteriscoming/app/scss/_custom.scss */
     #countdown strong {
       min-width: 5rem; }
-  /* line 214, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 213, F:/Sites/winteriscoming/app/scss/_custom.scss */
   button.share {
     line-height: 2rem; }
-    /* line 216, F:/Sites/winteriscoming/app/scss/_custom.scss */
+    /* line 215, F:/Sites/winteriscoming/app/scss/_custom.scss */
     button.share img {
-      height: 2rem; }
-    /* line 219, F:/Sites/winteriscoming/app/scss/_custom.scss */
-    button.share strong {
-      font-size: 2rem;
-      line-height: 2rem; } }
+      height: 2rem; } }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1900px) {
-  /* line 229, F:/Sites/winteriscoming/app/scss/_custom.scss */
+  /* line 223, F:/Sites/winteriscoming/app/scss/_custom.scss */
   #countdown {
     font-size: 6rem; }
-    /* line 231, F:/Sites/winteriscoming/app/scss/_custom.scss */
+    /* line 225, F:/Sites/winteriscoming/app/scss/_custom.scss */
     #countdown strong {
       min-width: 7rem; } }
