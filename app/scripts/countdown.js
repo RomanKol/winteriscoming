@@ -1,5 +1,4 @@
 // variables
-var end =  new Date(2016, 3,  24, 21, 00), // Months starting with 0 = January
 		el = document.getElementById('countdown'),
 		intervalId;
 
