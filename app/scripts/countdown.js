@@ -1,4 +1,5 @@
 // variables
+var end =  new Date('April 24 2016 21:00:00 UTC-0400'), // timezones!!!
 		el = document.getElementById('countdown'),
 		intervalId;
 
