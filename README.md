@@ -3,6 +3,9 @@
 Winter is coming - An animated countdown to the start of the sixth season of Game of Thrones
 ![alt text][previewImg]
 
+### CSS3 Version
+- [CSS3 Animations](https://github.com/RomanKol/winteriscoming-css/)
+
 ### Livedemo
 - [Demo](http://www.kollatschny.net/winteriscoming)
 
