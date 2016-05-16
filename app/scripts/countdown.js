@@ -3,6 +3,11 @@ var end =  new Date('April 24 2016 21:00:00 UTC-0400'), // timezones!!!
 		el = document.getElementById('countdown'),
 		intervalId;
 
+// Set proper Week
+while (end < Date.now()) {
+	end.setDate(end.getDate() + 7);
+}
+
 // Countdown Object
 var cd = {
 		days: {
