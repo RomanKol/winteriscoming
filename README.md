@@ -1,6 +1,6 @@
 # Winter is coming
 
-Winter is coming - An animated countdown to the start of the sixth season of Game of Thrones
+Winter is coming - An animated countdown to the start of the eighth season of Game of Thrones
 ![alt text][previewImg]
 
 ### CSS3 Version
@@ -11,9 +11,16 @@ Winter is coming - An animated countdown to the start of the sixth season of Gam
 
 ### Build with
 - [ThreeJS](https://github.com/mrdoob/three.js/)
-- [Bootstrap](https://github.com/twbs/bootstrap/)
 
 ### Inspired by
 - [Smoke by teolitto](http://codepen.io/teolitto/pen/KwOVvL)
 
-[previewImg]: https://raw.githubusercontent.com/RomanKol/winteriscoming/master/app/images/winteriscoming_small.jpg "Preview Image"
+[previewImg]: https://raw.githubusercontent.com/RomanKol/winteriscoming/master/app/images/preview.jpg "Preview Image"
+
+---
+
+# How to build
+- clone/download repo
+- run `npm i` (with Nodejs installed)
+- for dev: run `npm run dev` (`localhost:1234`)
+- to build: run `npm run build`
