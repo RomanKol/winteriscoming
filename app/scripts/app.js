@@ -1,17 +1,12 @@
-var infoboxEl = document.querySelector('.infobox'),
-		openEl = document.querySelector('.js-open'),
-		closeEl = document.querySelector('.js-close');
+import './countdown';
+import './scene';
 
-openEl.addEventListener('click', function (evt) {
+const infoboxEl = document.querySelector('.info-box');
 
-	infoboxEl.classList.remove('hide');
+document
+  .querySelector('.info-box-button.open')
+  .addEventListener('click', () => infoboxEl.classList.toggle('hidden'));
 
-});
-
-closeEl.addEventListener('click', function (evt) {
-
-	infoboxEl.classList.add('hide');
-
-});
-
-
+document
+  .querySelector('.info-box-button.close')
+  .addEventListener('click', () => infoboxEl.classList.toggle('hidden'));

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,125 +6,103 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Winter is coming - An animated countdown to the start of the sixth season of Game of Thrones">
+	<meta name="description" content="Winter is coming - An animated countdown to the start of the eighth season of Game of Thrones">
 	<meta name="author" content="Roman Kollatschny">
 	<meta name="keywords" content="winter is coming game fo thrones got webgl threejs">
 	<meta name="robots" content="index,follow">
 
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@theRealRoKo">
-	<meta name="twitter:creator" content="@theRealRoKo">
+	<meta name="twitter:site" content="@romschny">
+	<meta name="twitter:creator" content="@romschny">
 	<meta name="twitter:title" content="Winter is Coming">
-	<meta name="twitter:description" content="Winter is coming - An animated countdown to the start of the sixth season of Game of Thrones">
-	<meta name="twitter:image" content="http://kollatschny.net/winteriscoming/images/winteriscoming.jpg">
-	<meta name="twitter:domain" content="http://kollatschny.net/">
-	<meta name="twitter:url" content="http://kollatschny.net/winteriscoming">
+	<meta name="twitter:description" content="Winter is coming - An animated countdown to the start of the eighth season of Game of Thrones">
+	<meta name="twitter:image" content="https://kollatschny.net/winteriscoming/images/winteriscoming.jpg">
+	<meta name="twitter:domain" content="https://kollatschny.net/">
+	<meta name="twitter:url" content="https://kollatschny.net/winteriscoming">
 
 	<!-- Open Graph data -->
 	<meta property="og:title" content="Winter is Coming">
 	<meta property="og:type" content="article">
-	<meta property="og:url" content="http://kollatschny.net/winteriscoming">
-	<meta property="og:image" content="http://kollatschny.net/winteriscoming/images/winteriscoming.jpg">
-	<meta property="og:description" content="Winter is coming - An animated countdown to the start of the sixth season of Game of Thrones">
+	<meta property="og:url" content="https://kollatschny.net/winteriscoming">
+	<meta property="og:image" content="https://kollatschny.net/winteriscoming/images/winteriscoming.jpg">
+	<meta property="og:description" content="Winter is coming - An animated countdown to the start of the eighth season of Game of Thrones">
 	<meta property="og:site_name" content="kollatschny.net">
 	<meta property="og:locale" content="de_DE">
 	<meta property="og:country-name" content="Germany">
 
-<!-- 	<base href="http://kollatschny.net/winteriscoming/">
-<link rel="canonical" href="http://kollatschny.net/winteriscoming"> -->
+	<!-- 	<base href="https://kollatschny.net/winteriscoming/">
+<link rel="canonical" href="https://kollatschny.net/winteriscoming"> -->
 
 	<title>Winter is coming</title>
 
 	<link href='https://fonts.googleapis.com/css?family=Cinzel:400,700' rel='stylesheet' type='text/css'>
 	<link href="styles/styles.css" rel="stylesheet">
 
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
 </head>
 
 <body>
 
-	<section id="countdown">
-		<h1>Winter is coming</h1>
-		<span id="days"><strong></strong> days,</span>
-		<span id="hours"><strong></strong> hours,</span>
-		<span id="minutes"><strong></strong> minutes </span>
-		<span id="seconds">and <strong></strong> seconds</span>
+	<main id="countdown">
+		<header>
+			<h1>Winter is coming</h1>
+		</header>
+		<section>
+			<span id="days"><strong></strong> days</span>
+			<span id="hours"><strong></strong> hours</span>
+			<span id="minutes"><strong></strong> minutes</span>
+			<span id="seconds"><strong></strong> seconds</span>
+		</section>
+	</main>
+
+	<button class="info-box-button open" type="button">Info</button>
+
+	<section class="info-box hidden">
+
+		<button class="info-box-button close" type="button">Close</button>
+
+		<div>
+			<h1>Winter is coming</h1>
+			<h2>created by Roman Kollatschny</h2>
+		</div>
+
+		<div>
+			<strong>Build with</strong>
+			<a href="http://threejs.org/">ThreeJS</a>
+		</div>
+
+		<div>
+			<strong>Code on</strong>
+			<a href="https://github.com/romankol/winteriscoming/">Github</a>
+		</div>
+
+		<div>
+			<strong>Inspired by</strong>
+			<a href="http://codepen.io/teolitto/pen/KwOVvL">Smoke by teolitto</a>
+		</div>
+
+		<aside class="social">
+			<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fkollatschny.net%2Fwinteriscoming%2F" target="_blank"
+			 rel="noreferrer">
+				<button class="share facebook" type="button">
+					<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+						<path d="M287.607 460V273.891h62.504l9.359-72.53h-71.863v-46.305c0-21 5.835-35.31 35.964-35.31L362 119.73V54.859C355.354 53.975 332.542 52 306.003 52c-55.406 0-93.339 33.8-93.339 95.873v53.489H150v72.53h62.664V460h74.943z"
+						 fill="#fff" />
+					</svg>
+				</button>
+			</a>
+			<a href="https://twitter.com/share?url=https%3A%2F%2Fkollatschny.net%2Fwinteriscoming%2F" target="_blank" rel="noreferrer">
+				<button class="share twitter" type="button">
+					<svg xmlns="http://www.w3.org/2000/svg" height="512" width="512" viewBox="0 0 512 512">
+						<path d="M496 107.5c-17.944 7.5-35.888 13.5-56.822 15 20.934-12 35.887-31.5 43.364-54-19.44 12-40.374 19.5-62.804 24C401.794 73 376.374 61 349.458 61c-53.832 0-98.692 43.5-98.692 99 0 7.5 1.496 15 2.991 22.5C171.514 178 99.738 139 50.393 79c-8.972 15-13.458 31.5-13.458 49.5 0 34.5 17.944 64.5 43.364 82.5-16.449 0-31.402-4.5-44.86-12v1.5c0 48 34.393 87 79.253 96-8.972 1.5-16.449 3-25.421 3-5.981 0-11.963 0-17.944-1.5 11.963 39 49.346 67.5 91.215 69-32.897 27-76.262 42-122.617 42-7.476 0-16.448 0-23.925-1.5 44.86 27 97.196 43.5 152.523 43.5 180.935 0 279.627-150 279.627-280.5v-12c17.943-15 34.392-31.5 47.85-51z"
+						 fill="#fff" />
+					</svg>
+				</button>
+			</a>
+		</aside>
 	</section>
 
-	<nav class="nav">
-		<button class="js-open">Info</button>
-	</nav>
-
-	<section class="infobox hide">
-		<div class="container">
-
-			<nav class="nav">
-				<button class="js-close">Close</button>
-			</nav>
-
-			<div class="row">
-				<div class="col-md-12">
-					<h1>Winter is coming</h1>
-					<h2>created by Roman Kollatschny</h2>
-				</div>
-			</div>
-
-			<div class="row">
-
-				<div class="col-sm-4">
-					<h3>Build with</h3>
-					<a href="http://threejs.org/">
-						<h4>ThreeJS</h4>
-					</a>
-					<a href="http://getbootstrap.com/" target="_blank">
-            <h4>Bootstrap</h4>
-          </a>
-				</div>
-
-				<div class="col-sm-4">
-					<h3>Code on</h3>
-					<a href="https://github.com/romankol/winteriscoming/">
-						<h4>Github</h4>
-					</a>
-				</div>
-
-				<div class="col-sm-4">
-					<h3>Inspired by</h3>
-					<a href="http://codepen.io/teolitto/pen/KwOVvL">
-						<h4>Smoke by teolitto</h4>
-					</a>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-12 social">
-					<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fkollatschny.net%2Fwinteriscoming%2F" target="_blank">
-						<button class="share facebook">
-							<img src="images/facebook.svg" alt="">
-						</button>
-					</a>
-					<a href="https://twitter.com/share?url=http%3A%2F%2Fkollatschny.net%2Fwinteriscoming%2F" target="_blank">
-						<button class="share twitter">
-							<img src="images/twitter.svg" alt="">
-						</button>
-					</a>
-				</div>
-			</div>
-
-		</div>
-  </seciton>
-
 	<!-- App JavaScript -->
-	<script src="scripts/libs/three.js"></script>
-	<script src="scripts/scene.js"></script>
-	<script src="scripts/countdown.js"></script>
 	<script src="scripts/app.js"></script>
 
 </body>

@@ -15,7 +15,7 @@ Winter is coming - An animated countdown to the start of the eighth season of Ga
 ### Inspired by
 - [Smoke by teolitto](http://codepen.io/teolitto/pen/KwOVvL)
 
-[previewImg]: https://raw.githubusercontent.com/RomanKol/winteriscoming/master/app/images/preview.jpg "Preview Image"
+[previewImg]: https://raw.githubusercontent.com/RomanKol/winteriscoming/master/app/images/preview.png "Preview Image"
 
 ---
 
@@ -24,3 +24,9 @@ Winter is coming - An animated countdown to the start of the eighth season of Ga
 - run `npm i` (with Nodejs installed)
 - for dev: run `npm run dev` (`localhost:1234`)
 - to build: run `npm run build`
+
+---
+* Known issues/problems
+- parcel build
+ - html nano removes inline svg viewbox
+ - assets paths not correct
