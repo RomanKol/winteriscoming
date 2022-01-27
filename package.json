@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "parcel-bundler": "^1.11.0",
-    "three": "^0.100.0"
+    "three": "^0.137.0"
   },
   "name": "winteriscoming",
   "version": "2.0.0",
